@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  background-color: black;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: white;
+}
+
+/*-----logo Image----------*/
+.navbar-brand {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+
+/* .topnav img {
+  height: 150px;
+  width: 150px;
+  
+} */
+
+.topnav span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 40px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*------button-------*/
+.button {
+  background-color: #07ad81;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8%;
+  margin: 10px 30px 5px 30px;
+}
+
+.button:hover {
+  background-color: #04644a;
+  color: grey;
+}
+/*-------wallet button--*/
+.wallet {
+  background-color: black;
+  color: white;
+  border: 0.1px solid white;
+  padding: 14px 10px;
+  margin: 10px 30px 5px 30px;
+  border-radius: 8%;
+}
+
+.wallet:hover {
+  background-color: rgba(20, 2, 2, 0.774);
+  color: grey;
+}
+/*--------container------*/
+.container {
+  /* margin-top: 70px; */
+  margin: 70px 0 10px 29px;
+  display: block;
+  background-color: black;
+
+  position: relative;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+  font-weight: 700px;
+  color: white;
+  font-size: 40px;
+}
+
+.container p {
+  color: grey;
+  font-size: 20px;
+}
+
+.parent-container {
+  margin-left: 154px;
+}
+
+/*---------Box----------*/
+.box {
+  margin-left: 184px;
+  margin: 70px 0 0 30px;
+  color: white;
+  display: flex;
+}
+
+.box-icons {
+  display: flex;
+  border: 1px solid grey;
+  padding: 15px 70px;
+  margin: 0 80px 0 120px;
+}
+.font-icons {
+  height: 40px;
+  margin-right: 20px;
+}
+
+/*--------box container-------*/
+.box-container {
+  color: white;
+  display: flex;
+  margin-top: 150px;
+}
+
+.box-container div {
+  padding: 44px 65px;
+  font-size: 20px;
+}
+/**----font Icon------*/
+.font-icon {
+  display: flex;
+  border: none;
+}
+/*---------box-container-para----*/
+.box-container-para {
+  color: grey;
+}
+
+.title {
+  color: white;
+  margin: 80px 0 0 80px;
+  font-size: 30px;
+}
+
+/*----------containersbox--------*/
+.containersbox {
+  display: flex;
+  color: white;
+  margin-top: 30px;
+}
+
+.containersbox div {
+  border: 1px solid white;
+  margin-left: 78px;
+  padding: 15px 20px;
+}
+
+/*----------footerss---------*/
+.footers {
+  color: white;
+  text-align: center;
+  margin: 68px 60 13px 60px;
+  font-size: 25px;
+  border-top: 1px solid white;
+}
+
+/*----icons------*/
+.icons {
+  margin-top: 25px;
+  display: flex;
+}
+
+/*-----footer title-------*/
+.footer-title {
+  margin-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
